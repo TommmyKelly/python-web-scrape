@@ -43,7 +43,7 @@ for row in rows:
             time = time[0]
             PB = f"{time} New PB!"
 
-        print(time_row)
+            print(time_row)
 
         data.append({
             "Position": position,
