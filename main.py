@@ -125,6 +125,7 @@ def scrape():
 def folder_picker():
     window.filename = filedialog.askdirectory()
     folder_name = window.filename.replace("/", "\\") + "\\"
+    entry_folder.delete(0,'end')
     entry_folder.insert(0, folder_name)
 
 
